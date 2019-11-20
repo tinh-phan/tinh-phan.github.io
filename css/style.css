@@ -176,6 +176,10 @@ footer {
     margin: auto;
 }
 
+.fb-socials {
+    padding: 1rem;
+}
+
 /* #### START GRID VIEW */
 .row::after {
     content: "";
