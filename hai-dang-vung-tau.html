@@ -8,6 +8,12 @@
     <meta name="keywords" content="hai dang vung tau, hải đăng vũng tàu, danh lam, thắng cảnh, du lịch bà rịa - vũng tàu, bà rịa - vũng tàu">
     <meta name="description" content="Thông tin chi tiết hải đăng vũng tàu">
     <meta name="author" content="Internet">
+    <!-- FB -->
+    <meta property="og:url" content="https://tinh-phan.github.io/hai-dang-vung-tau.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hải Đăng Vũng Tàu" />
+    <meta property="og:description" content="Thông tin chi tiết hải đăng vũng tàu" />
+    <meta property="og:image" content="https://tinh-phan.github.io/img/hai-dang-vung-tau.jpg" />
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap&subset=vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/style.css">
@@ -23,6 +29,16 @@
     
 </head>
 <body>
+    <!-- Comment #2: SDK -->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     <nav id="top-nav">
         <ul class="container cf">
             <li><a href="index.html">Trang chủ</a></li>
@@ -32,6 +48,7 @@
         </ul>
     </nav>
     <main class="container mh-80vh box-content">
+        <div class="fb-quote"></div>
         <article>
             <h1>Hải đăng vũng tàu</h1>
             <p>(Chưa có bài viết)</p>

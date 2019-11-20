@@ -9,6 +9,12 @@
     <meta name="keywords" content="thu vien anh, thư viện ảnh, danh lam, thắng cảnh, du lịch bà rịa - vũng tàu, bà rịa - vũng tàu">
     <meta name="description" content="thư viện ảnh các thắng cảnh đẹp tại tỉnh Bà Rịa - Vũng Tàu">
     <meta name="author" content="Tinh Phan">
+    <!-- FB -->
+    <meta property="og:url" content="https://tinh-phan.github.io/gallery.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Thư viện ảnh các thắng cảnh tại Bà Rịa - Vũng Tàu" />
+    <meta property="og:description" content="Thư viện ảnh các thắng cảnh đẹp tại tỉnh Bà Rịa - Vũng Tàu" />
+    <meta property="og:image" content="https://tinh-phan.github.io/img/bien-long-hai.jpg" />
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap&subset=vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/cssbox.css">
@@ -26,6 +32,16 @@
 </head>
 
 <body>
+    <!-- Comment #2: SDK -->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     <nav id="top-nav">
         <ul class="container cf">
             <li><a href="index.html">Trang chủ</a></li>
@@ -36,6 +52,7 @@
     </nav>
     <h1 class="d-hidden">Kho Ảnh thắng cảnh đẹp Bà rịa - Vũng Tàu</h1>
     <main class="container row">
+        <div class="fb-quote"></div>
         <div class="cssbox col-s-3">
             <a id="image1" href="#image1"><img class="cssbox_thumb" src="img/bien-long-hai.jpg" alt="Biển Long Hải">
                 <span class="cssbox_full"><img src="img/bien-long-hai.jpg" alt="Biển Long Hải"></span>
