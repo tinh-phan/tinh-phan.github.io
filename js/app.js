@@ -8,10 +8,13 @@ const siema = new Siema({
 
 const prev = document.querySelector('.slide-prev');
 const next = document.querySelector('.slide-next');
-
-prev.addEventListener('click', () => {
-    siema.prev();
-});
-next.addEventListener('click', () => {
-    siema.next();
-});
+if prev !== null {
+    prev.addEventListener('click', () => {
+        siema.prev();
+    });
+}
+if next !== null {
+    next.addEventListener('click', () => {
+        siema.next();
+    });
+}
